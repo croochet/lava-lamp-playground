@@ -72,7 +72,7 @@ export default function App() {
   return (
     <>
       <LavaLamp params={params} seed={seed} paused={paused} />
-      <DialRoot position="top-right" theme="dark" />
+      <DialRoot position="top-right" theme="dark" productionEnabled />
     </>
   );
 }
